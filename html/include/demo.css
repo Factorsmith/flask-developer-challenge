@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+
+div {
+	display: block;
+	padding: 5px;
+	width: 710px;
+	margin: auto;
+}
+		
+h3 {
+	text-align: center;
+	margin: 4px;
+}
+h6 {
+	text-align: center;
+	margin: 3px;
+}
+		
+input {
+	background: #ffffb3;
+	margin: 0 10px 0 10px;
+}
+		
+button {
+	background-color:#cc0000;
+	border: #cc0000 solid 4px;
+	border-radius: 4px;
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+}
+button:hover {
+	border:  #D3D3D3 solid 4px;
+	cursor: pointer;
+}
+button:focus {
+	border:  #D3D3D3 solid 4px;
+	cursor: pointer;
+}
+
+img {
+	float: right;
+	height: 27px;
+	width: 27px;
+}
+		
+textarea {
+	width: 700px;
+	background: #99ff99;
+	color:black;
+}
+
+.optionLabel {
+	font-style: italic;
+	color: #C0C0C0;
+	padding-right:8px;
+}
+
+.errorMsg {
+	color: red;
+	font-style: italic;
+	text-align: center;
+}
+
+.countMsg { 
+	float: right;
+	padding-top: 4px;
+}

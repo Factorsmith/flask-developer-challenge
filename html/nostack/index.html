@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Git Search Demo</title>
+ 	<link rel="stylesheet" type="text/css" href="include/demo.css" />
+ 	<link rel="icon" type="image/x-icon" href="favicon.ico" >
+	<script src="include/jquery-2.1.4.min.js"></script>
+	<script src="include/gitSearch.js"></script>
+</head>
+<body>
+	<div><h3>GIT-SEARCH Demo</h3></div>
+	<div><h6><span class="optionLabel">One Page of up to: </span>30 Repositories 
+		<span style="padding-left:20px;padding-right:20px;"><span class="optionLabel">Oldest Update: </span>2012-01-01 </span>
+		<span  class="optionLabel">Order-By: </span>Push Date, Newest First
+	</h6></div>
+	<div><span style="display:inline-block;width: 446px;">
+		Author: <input id="author" size="15" tabindex=1 >
+		<button type="button" onclick="callGitSearch();" tabindex=2 > S U B M I T </button>
+		<img id="processingImg" src="include/asyncWait.gif" style="display:none;" tabindex=-1 />
+		<span id="totalCount" class="countMsg" tabindex=-1></span>
+	</span></div>
+	<div id="row0"><textarea id="repo0" value="" rows="6" cols="700" disabled tabindex=-1 ></textarea></div>
+	<div id="errorMsg" class="errorMsg" tabindex=-1 ></div>
+</body>
+</html>
